@@ -32,14 +32,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Set up the environment
-        run: echo "Directory for site root is 'dispositivos-móveis'"
+        run: echo "Directory for site root is 'dispositivos-moveis'"
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: 'dispositivos-móveis'
+          path: 'dispositivos-moveis'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
